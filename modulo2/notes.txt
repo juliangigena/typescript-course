@@ -1,0 +1,6 @@
+steps
+1- exec npm init -y => crear package.json
+2- modificar el package.json el comando start
+    ej -> "start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js",
+    #esto permite trabajar con una folder de codigo TS y en la carpeta dist lo q se genera js 
+3- tipos de variables
