@@ -1,0 +1,11 @@
+steps
+1- usar el comando tsc para convertir ts a js
+    tsc archivo.ts -> ej tsc index.ts => crea un archivo js
+2- exec el archivo js
+    node archivo.js -> ej node index.js => exec por consola el js
+3- automatizar estos pasos usando npm 
+    npm init -y -> nos crea un package.json => nos permite automatizar el punto 1 y 2
+4- en el bloque 'scripts' agrego una entrada simil 'test' que ya existe
+    ej -> "star": "tsc index.ts && node index.js", => automatiza las entradas por consola 1 y 2
+5- exec 'npm run' con el nombre del comando agregado al bloque scripts
+    npm run comando -> npm run start => exec los comandos declarados en la linea agregada
